@@ -46,3 +46,7 @@ app.*.map.json
 
 # Environment variables (API keys)
 .env
+
+# Local landing page files (Blogger template)
+index.html
+mangalens_mockup.png
