@@ -2,6 +2,8 @@ import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:open_filex/open_filex.dart';
+import 'package:path_provider/path_provider.dart';
 import '../constants/app_colors.dart';
 import '../constants/app_constants.dart';
 import '../../features/browser/providers/browser_provider.dart';
@@ -45,12 +47,26 @@ class UpdateService {
         final String htmlUrl = data['html_url'] as String? ?? 'https://github.com/${AppConstants.githubRepo}/releases';
         final String body = data['body'] as String? ?? 'لا يوجد وصف للتحديث.';
 
+        String downloadUrl = htmlUrl;
+        if (data['assets'] != null && data['assets'] is List) {
+          final assets = data['assets'] as List;
+          for (final asset in assets) {
+            if (asset is Map<String, dynamic>) {
+              final name = asset['name'] as String? ?? '';
+              if (name.endsWith('.apk')) {
+                downloadUrl = asset['browser_download_url'] as String? ?? htmlUrl;
+                break;
+              }
+            }
+          }
+        }
+
         final latestVersion = tagName.replaceAll('v', '').trim();
         if (_isNewerVersion(AppConstants.appVersion, latestVersion)) {
           return AppUpdateInfo(
             latestVersion: latestVersion,
             releaseNotes: body,
-            downloadUrl: htmlUrl,
+            downloadUrl: downloadUrl,
           );
         }
       }
@@ -157,13 +173,167 @@ class UpdateService {
             ),
             onPressed: () {
               Navigator.pop(ctx);
-              // فتح صفحة التحميل في المتصفح المدمج
-              ref.read(browserProvider.notifier).openInNewTab(updateInfo.downloadUrl);
-              ref.read(navigationProvider.notifier).state = 1; // الانتقال للمتصفح
+              if (updateInfo.downloadUrl.endsWith('.apk')) {
+                // فتح حوار التحميل الداخلي
+                showDialog(
+                  context: context,
+                  barrierDismissible: false, // منع الإغلاق أثناء التحميل
+                  builder: (context) => DownloadProgressDialog(
+                    downloadUrl: updateInfo.downloadUrl,
+                  ),
+                );
+              } else {
+                // فتح صفحة التحميل في المتصفح المدمج كخيار احتياطي
+                ref.read(browserProvider.notifier).openInNewTab(updateInfo.downloadUrl);
+                ref.read(navigationProvider.notifier).state = 1; // الانتقال للمتصفح
+              }
             },
             child: Text(
               'تحديث الآن',
               style: GoogleFonts.cairo(color: Colors.white, fontWeight: FontWeight.bold),
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+class DownloadProgressDialog extends StatefulWidget {
+  final String downloadUrl;
+
+  const DownloadProgressDialog({super.key, required this.downloadUrl});
+
+  @override
+  State<DownloadProgressDialog> createState() => _DownloadProgressDialogState();
+}
+
+class _DownloadProgressDialogState extends State<DownloadProgressDialog> {
+  final Dio _dio = Dio();
+  double _progress = 0.0;
+  String _statusText = 'جاري التحضير لبدء التحميل...';
+  CancelToken? _cancelToken;
+  bool _isDownloading = true;
+
+  @override
+  void initState() {
+    super.initState();
+    _startDownload();
+  }
+
+  @override
+  void dispose() {
+    _cancelToken?.cancel();
+    super.dispose();
+  }
+
+  Future<void> _startDownload() async {
+    _cancelToken = CancelToken();
+    try {
+      final tempDir = await getTemporaryDirectory();
+      final savePath = '${tempDir.path}/MangaLens_Update.apk';
+
+      setState(() {
+        _statusText = 'جاري تحميل التحديث...';
+      });
+
+      await _dio.download(
+        widget.downloadUrl,
+        savePath,
+        cancelToken: _cancelToken,
+        onReceiveProgress: (received, total) {
+          if (total != -1) {
+            setState(() {
+              _progress = received / total;
+              final percent = (_progress * 100).toStringAsFixed(0);
+              _statusText = 'جاري تحميل ملف التحديث: $percent%';
+            });
+          }
+        },
+      );
+
+      if (!mounted) return;
+
+      setState(() {
+        _isDownloading = false;
+        _statusText = 'اكتمل التحميل! جاري فتح التثبيت...';
+      });
+
+      // فتح وتثبيت الـ APK
+      final openResult = await OpenFilex.open(savePath);
+      
+      if (!mounted) return;
+      
+      if (openResult.type != ResultType.done) {
+        setState(() {
+          _statusText = 'فشل فتح ملف التثبيت: ${openResult.message}';
+        });
+      } else {
+        Navigator.pop(context); // إغلاق الحوار تلقائياً عند بدء التثبيت
+      }
+    } catch (e) {
+      if (!mounted) return;
+      if (CancelToken.isCancel(e as DioException)) {
+        setState(() {
+          _statusText = 'تم إلغاء التحميل.';
+          _isDownloading = false;
+        });
+      } else {
+        setState(() {
+          _statusText = 'حدث خطأ أثناء التحميل: $e';
+          _isDownloading = false;
+        });
+      }
+    }
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Directionality(
+      textDirection: TextDirection.rtl,
+      child: AlertDialog(
+        backgroundColor: AppColors.surfaceElevated,
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+        title: Text(
+          'تنزيل التحديث 📥',
+          style: GoogleFonts.cairo(
+            color: Colors.white,
+            fontWeight: FontWeight.bold,
+            fontSize: 18,
+          ),
+        ),
+        content: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            const SizedBox(height: 8),
+            LinearProgressIndicator(
+              value: _progress,
+              backgroundColor: AppColors.surface,
+              valueColor: const AlwaysStoppedAnimation<Color>(AppColors.primary),
+              minHeight: 8,
+              borderRadius: BorderRadius.circular(4),
+            ),
+            const SizedBox(height: 16),
+            Text(
+              _statusText,
+              textAlign: TextAlign.center,
+              style: GoogleFonts.cairo(color: Colors.white70, fontSize: 13),
+            ),
+            const SizedBox(height: 8),
+          ],
+        ),
+        actions: [
+          TextButton(
+            onPressed: () {
+              _cancelToken?.cancel();
+              Navigator.pop(context);
+            },
+            child: Text(
+              _isDownloading ? 'إلغاء' : 'إغلاق',
+              style: GoogleFonts.cairo(
+                color: AppColors.primary,
+                fontWeight: FontWeight.bold,
+              ),
             ),
           ),
         ],
