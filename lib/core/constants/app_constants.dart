@@ -6,7 +6,7 @@ class AppConstants {
   // ─── معلومات التطبيق ───────────────────────────────
   static const String appName = 'MangaLens';
   static const String appVersion = '1.0.0';
-  static const String githubRepo = 'your-username/MangaLens';
+  static const String githubRepo = 'Mohamed5839211/MangaLens';
 
   // ─── الصفحة الرئيسية ───────────────────────────────
   static const String defaultHomeUrl = 'about:blank';
