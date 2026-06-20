@@ -31,6 +31,10 @@ jobs:
           channel: 'stable'
           cache: true
 
+      - name: Create .env file
+        run: |
+          echo "GROQ_API_KEY=${{ secrets.GROQ_API_KEY }}" > .env
+
       - name: Get dependencies
         run: flutter pub get
 
