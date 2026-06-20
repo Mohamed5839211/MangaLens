@@ -1,0 +1,66 @@
+name: Build and Release APK
+
+on:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - '**.md'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    name: Build & Release
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Java
+        uses: actions/setup-java@v3
+        with:
+          distribution: 'zulu'
+          java-version: '17'
+
+      - name: Setup Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.22.1'
+          channel: 'stable'
+          cache: true
+
+      - name: Get dependencies
+        run: flutter pub get
+
+      - name: Update Version in Code
+        run: |
+          VERSION="1.0.${{ github.run_number }}"
+          echo "Setting version to $VERSION"
+          
+          # Update AppConstants.appVersion
+          sed -i "s/static const String appVersion = '[^']*';/static const String appVersion = '$VERSION';/g" lib/core/constants/app_constants.dart
+          
+          # Update pubspec.yaml version
+          sed -i "s/^version: .*/version: $VERSION+${{ github.run_number }}/g" pubspec.yaml
+
+      - name: Build APK
+        run: flutter build apk --release
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: v1.0.${{ github.run_number }}
+          name: MangaLens v1.0.${{ github.run_number }}
+          body: |
+            ## تحديث جديد (New Update) 🚀
+            
+            تم إطلاق تحديث جديد لتطبيق MangaLens:
+            - **الإصدار:** 1.0.${{ github.run_number }}
+            
+            (تم بناء هذا الإصدار ورفعه تلقائياً عبر GitHub Actions)
+          files: build/app/outputs/flutter-apk/app-release.apk
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
