@@ -19,6 +19,7 @@ import '../../downloads/presentation/manga_saved_chapters_screen.dart';
 import '../../../widgets/safe_network_image.dart';
 import 'home_drawer.dart';
 import '../../../core/services/update_service.dart';
+import '../../sources/presentation/sources_list_screen.dart';
 
 
 class GroupedManga {
@@ -244,13 +245,17 @@ class _HomeScreenState extends ConsumerState<HomeScreen> with SingleTickerProvid
                     children: [
                       ShaderMask(
                         shaderCallback: (bounds) => AppColors.primaryGradient.createShader(bounds),
-                        child: Text(
-                          'MangaLens',
-                          style: GoogleFonts.orbitron(
-                            fontSize: 42,
-                            fontWeight: FontWeight.w900,
-                            color: Colors.white,
-                            letterSpacing: 2,
+                        child: FittedBox(
+                          fit: BoxFit.scaleDown,
+                          child: Text(
+                            'MangaLens',
+                            maxLines: 1,
+                            style: GoogleFonts.orbitron(
+                              fontSize: 42,
+                              fontWeight: FontWeight.w900,
+                              color: Colors.white,
+                              letterSpacing: 2,
+                            ),
                           ),
                         ),
                       )
@@ -272,33 +277,65 @@ class _HomeScreenState extends ConsumerState<HomeScreen> with SingleTickerProvid
                 ),
               ),
 
-          // ─── زر فتح المتصفح ────────
+          // ─── أزرار المتصفح والمصادر ────────
           SliverToBoxAdapter(
-            child: Center(
-              child: Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 16),
-                child: ElevatedButton.icon(
-                  onPressed: () {
-                    // إذا كان هناك رابط سابق، هو محفوظ في المتصفح نفسه
-                    ref.read(navigationProvider.notifier).state = 1;
-                  },
-                  icon: const Icon(Icons.explore_rounded, color: Colors.white, size: 28),
-                  label: Text(
-                    'فتح المتصفح',
-                    style: GoogleFonts.cairo(
-                      color: Colors.white,
-                      fontWeight: FontWeight.w800,
-                      fontSize: 18,
+            child: Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 16),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Expanded(
+                    child: ElevatedButton.icon(
+                      onPressed: () {
+                        // إذا كان هناك رابط سابق، هو محفوظ في المتصفح نفسه
+                        ref.read(navigationProvider.notifier).state = 1;
+                      },
+                      icon: const Icon(Icons.explore_rounded, color: Colors.white, size: 24),
+                      label: Text(
+                        'المتصفح',
+                        style: GoogleFonts.cairo(
+                          color: Colors.white,
+                          fontWeight: FontWeight.w800,
+                          fontSize: 16,
+                        ),
+                      ),
+                      style: ElevatedButton.styleFrom(
+                        backgroundColor: AppColors.primary,
+                        padding: const EdgeInsets.symmetric(vertical: 16),
+                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(30)),
+                        elevation: 12,
+                        shadowColor: AppColors.primary.withOpacity(0.6),
+                      ),
                     ),
                   ),
-                  style: ElevatedButton.styleFrom(
-                    backgroundColor: AppColors.primary,
-                    padding: const EdgeInsets.symmetric(horizontal: 48, vertical: 16),
-                    shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(30)),
-                    elevation: 12,
-                    shadowColor: AppColors.primary.withOpacity(0.6),
+                  const SizedBox(width: 12),
+                  Expanded(
+                    child: ElevatedButton.icon(
+                      onPressed: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(builder: (_) => const SourcesListScreen()),
+                        );
+                      },
+                      icon: const Icon(Icons.extension, color: Colors.white, size: 24),
+                      label: Text(
+                        'المصادر',
+                        style: GoogleFonts.cairo(
+                          color: Colors.white,
+                          fontWeight: FontWeight.w800,
+                          fontSize: 16,
+                        ),
+                      ),
+                      style: ElevatedButton.styleFrom(
+                        backgroundColor: AppColors.accent,
+                        padding: const EdgeInsets.symmetric(vertical: 16),
+                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(30)),
+                        elevation: 12,
+                        shadowColor: AppColors.accent.withOpacity(0.6),
+                      ),
+                    ),
                   ),
-                ),
+                ],
               ).animate().fadeIn(delay: 250.ms).slideY(begin: 0.1),
             ),
           ),

@@ -46,6 +46,10 @@ dependencies:
   pdf: ^3.12.0
   share_plus: ^13.1.0
   open_filex: ^4.7.0
+  html: ^0.15.6
+  cached_network_image: ^3.4.1
+  permission_handler: ^12.0.3
+  flutter_image_compress: ^2.4.0
 
 dev_dependencies:
   flutter_test:
@@ -58,4 +62,5 @@ flutter:
 
   assets:
     - assets/localization/
+    - assets/extensions/
     - .env

@@ -265,15 +265,22 @@ class _HomeDrawerState extends ConsumerState<HomeDrawer> {
               ),
               child: Row(
                 children: [
-                  ShaderMask(
-                    shaderCallback: (bounds) => AppColors.primaryGradient.createShader(bounds),
-                    child: Text(
-                      'MangaLens',
-                      style: GoogleFonts.orbitron(
-                        fontSize: 24,
-                        fontWeight: FontWeight.w900,
-                        color: Colors.white,
-                        letterSpacing: 1.5,
+                  Flexible(
+                    child: ShaderMask(
+                      shaderCallback: (bounds) => AppColors.primaryGradient.createShader(bounds),
+                      child: FittedBox(
+                        fit: BoxFit.scaleDown,
+                        alignment: AlignmentDirectional.centerStart,
+                        child: Text(
+                          'MangaLens',
+                          maxLines: 1,
+                          style: GoogleFonts.orbitron(
+                            fontSize: 24,
+                            fontWeight: FontWeight.w900,
+                            color: Colors.white,
+                            letterSpacing: 1.5,
+                          ),
+                        ),
                       ),
                     ),
                   ),

@@ -41,24 +41,12 @@ class InpaintingService {
     }
 
     ui.Image? image;
-    cv.Mat? srcMat;
-    cv.Mat? mask;
-    cv.Mat? resultMat;
 
     try {
       // 0. تحويل الصورة إلى PNG لضمان عمل OpenCV (حل مشكلة WebP) في Isolate خلفي
       final pngImage = await _ensurePngFormat(originalImage);
 
-      // 1. تحويل الصورة إلى مصفوفة OpenCV
-      srcMat = cv.imdecode(pngImage, cv.IMREAD_COLOR);
-
-      // التحقق من نجاح فك التشفير
-      if (srcMat.isEmpty || srcMat.rows == 0 || srcMat.cols == 0) {
-        debugPrint('⚠️ OpenCV imdecode failed, falling back to Canvas');
-        return _fallbackClean(originalImage, ocrResults, translations);
-      }
-
-      // 2. إنشاء القناع الدقيق
+      // 1. إنشاء القناع الدقيق
       image = await ImageUtils.bytesToImage(originalImage);
       final maskBytes = await _generatePreciseMask(
         image: image,
@@ -66,24 +54,44 @@ class InpaintingService {
         translations: translations,
       );
       
-      // 3. فك تشفير القناع في OpenCV
-      mask = cv.imdecode(maskBytes, cv.IMREAD_GRAYSCALE);
+      // 2. تمرير عمليات OpenCV الثقيلة (FFI) بالكامل إلى مسار معزول Isolate لضمان سلاسة الواجهة (60fps)
+      final encodedBytes = await Isolate.run(() {
+        cv.Mat? srcMat;
+        cv.Mat? mask;
+        cv.Mat? resultMat;
 
-      // 4. تطبيق Inpainting
-      resultMat = cv.inpaint(
-        srcMat,
-        mask,
-        AppConstants.inpaintRadius.toDouble(),
-        cv.INPAINT_TELEA,
-      );
+        try {
+          srcMat = cv.imdecode(pngImage, cv.IMREAD_COLOR);
+          if (srcMat.isEmpty || srcMat.rows == 0 || srcMat.cols == 0) {
+            return null;
+          }
 
-      // 5. تحويل المصفوفة الناتجة إلى Uint8List
-      final (success, encodedBytes) = cv.imencode('.png', resultMat);
-      
-      if (success) {
+          mask = cv.imdecode(maskBytes, cv.IMREAD_GRAYSCALE);
+
+          resultMat = cv.inpaint(
+            srcMat,
+            mask,
+            AppConstants.inpaintRadius.toDouble(),
+            cv.INPAINT_TELEA,
+          );
+
+          final (success, encoded) = cv.imencode('.png', resultMat);
+          return success ? encoded : null;
+        } catch (e) {
+          debugPrint('⚠️ OpenCV in Isolate failed: $e');
+          return null;
+        } finally {
+          srcMat?.dispose();
+          mask?.dispose();
+          resultMat?.dispose();
+        }
+      });
+
+      if (encodedBytes != null) {
         return encodedBytes;
       } else {
-        throw Exception("Failed to encode inpainted image");
+        debugPrint('⚠️ OpenCV Isolate returned null, falling back to Canvas');
+        return _fallbackClean(originalImage, ocrResults, translations);
       }
     } catch (e) {
       final errorStr = e.toString();
@@ -97,11 +105,7 @@ class InpaintingService {
       }
       return _fallbackClean(originalImage, ocrResults, translations);
     } finally {
-      // تحرير الذاكرة لمنع تسربها
       image?.dispose();
-      srcMat?.dispose();
-      mask?.dispose();
-      resultMat?.dispose();
     }
   }
 

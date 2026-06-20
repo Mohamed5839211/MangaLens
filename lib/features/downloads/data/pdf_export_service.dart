@@ -4,7 +4,9 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:pdf/widgets.dart' as pw;
 import 'package:share_plus/share_plus.dart';
-import 'package:image/image.dart' as img;
+import 'package:permission_handler/permission_handler.dart';
+import 'package:flutter_image_compress/flutter_image_compress.dart';
+
 import '../models/saved_chapter.dart';
 import 'downloads_service.dart';
 
@@ -17,45 +19,62 @@ class PdfExportService {
 
   PdfExportService(this._downloadsService);
 
-  /// حد حجم الملف (2 ميجا) — فقط الصور الأكبر من هذا الحد يتم ضغطها
-  static const int _compressThreshold = 2 * 1024 * 1024; // 2 MB
+  /// الحصول على المجلد العام في الذاكرة الأساسية (Public Storage)
+  static Future<Directory> _getPublicExportDir(String mangaTitle) async {
+    Directory? baseDir;
 
-  /// ضغط صورة كبيرة في Isolate منفصل (يُستدعى فقط للصور الضخمة)
-  static Uint8List _compressLargeImage(Uint8List imageBytes) {
-    final decoded = img.decodeImage(imageBytes);
-    if (decoded == null) return imageBytes;
-
-    final maxWidth = 1400;
-    img.Image resized;
-    if (decoded.width > maxWidth) {
-      resized = img.copyResize(decoded, width: maxWidth);
-    } else {
-      resized = decoded;
-    }
-
-    return Uint8List.fromList(img.encodeJpg(resized, quality: 80));
-  }
-
-  /// الحصول على مجلد التصدير الدائم
-  static Future<Directory> _getExportDir() async {
-    final externalDir = await getExternalStorageDirectory();
-    if (externalDir != null) {
-      final pdfDir = Directory('${externalDir.path}/PDF');
-      if (!await pdfDir.exists()) {
-        await pdfDir.create(recursive: true);
+    if (Platform.isAndroid) {
+      // طلب الصلاحيات
+      if (await Permission.manageExternalStorage.isDenied || 
+          await Permission.storage.isDenied) {
+        await [Permission.manageExternalStorage, Permission.storage].request();
       }
-      return pdfDir;
-    }
 
-    final docsDir = await getApplicationDocumentsDirectory();
-    final pdfDir = Directory('${docsDir.path}/PDF');
-    if (!await pdfDir.exists()) {
-      await pdfDir.create(recursive: true);
+      // محاولة الوصول لجذر الذاكرة (Root of emulated storage)
+      baseDir = Directory('/storage/emulated/0/MangaLens/$mangaTitle');
+      try {
+        if (!await baseDir.exists()) {
+          await baseDir.create(recursive: true);
+        }
+        return baseDir;
+      } catch (e) {
+        // إذا فشل (بسبب قيود Android 11+ ولم يعطِ المستخدم الصلاحية)
+        // نستخدم مجلد التنزيلات العام كملاذ آمن
+        baseDir = Directory('/storage/emulated/0/Download/MangaLens/$mangaTitle');
+        if (!await baseDir.exists()) {
+          await baseDir.create(recursive: true);
+        }
+        return baseDir;
+      }
+    } else {
+      // للأجهزة الأخرى (مثل iOS) نستخدم مجلد المستندات
+      baseDir = await getApplicationDocumentsDirectory();
+      final targetDir = Directory('${baseDir.path}/MangaLens/$mangaTitle');
+      if (!await targetDir.exists()) {
+        await targetDir.create(recursive: true);
+      }
+      return targetDir;
     }
-    return pdfDir;
   }
 
-  /// تصدير فصل كـ PDF — سريع (بدون ضغط غير ضروري)
+  /// ضغط الصورة باستخدام flutter_image_compress (Native & Fast)
+  static Future<Uint8List> _compressImageNative(Uint8List imageBytes) async {
+    try {
+      final compressed = await FlutterImageCompress.compressWithList(
+        imageBytes,
+        minWidth: 1080,
+        minHeight: 1920,
+        quality: 75,
+        format: CompressFormat.jpeg,
+      );
+      return compressed;
+    } catch (e) {
+      // في حال الفشل، نرجع الصورة الأصلية
+      return imageBytes;
+    }
+  }
+
+  /// تصدير فصل كـ PDF — معالج لحل مشكلة OOM والملفات الطويلة
   Future<String> exportAndSharePdf(SavedChapter chapter) async {
     final images = await _downloadsService.getChapterImages(chapter);
 
@@ -66,20 +85,22 @@ class PdfExportService {
     final pdf = pw.Document();
     final stopwatch = Stopwatch()..start();
 
+    // معالجة الصور وإضافتها للـ PDF
     for (int i = 0; i < images.length; i++) {
       final file = images[i];
       Uint8List imageBytes = await file.readAsBytes();
 
-      // ضغط فقط الصور الضخمة (> 2 ميجا) لتوفير الذاكرة
-      if (imageBytes.length > _compressThreshold) {
-        debugPrint('📄 PDF: Compressing large page ${i + 1} (${(imageBytes.length / 1024 / 1024).toStringAsFixed(1)} MB)');
-        imageBytes = await compute(_compressLargeImage, imageBytes);
-      }
+      // ضغط الصورة دائماً لتجنب OOM باستخدام مكتبة الـ Native
+      imageBytes = await _compressImageNative(imageBytes);
 
       final image = pw.MemoryImage(imageBytes);
 
       pdf.addPage(
         pw.Page(
+          pageFormat: pw.PdfPageFormat(
+            (image.width ?? 800).toDouble(),
+            (image.height ?? 1200).toDouble(),
+          ),
           margin: pw.EdgeInsets.zero,
           build: (pw.Context context) {
             return pw.Center(
@@ -88,13 +109,17 @@ class PdfExportService {
           },
         ),
       );
+      
+      // مسح الصورة من الذاكرة لتقليل الضغط
+      imageBytes = Uint8List(0);
     }
 
     // ─── حفظ الـ PDF ───
-    final exportDir = await _getExportDir();
-    final safeTitle = '${chapter.mangaTitle}_${chapter.chapterTitle}'
-        .replaceAll(RegExp(r'[\\/:*?"<>| ]'), '_');
-    final file = File('${exportDir.path}/$safeTitle.pdf');
+    final safeMangaTitle = chapter.mangaTitle.replaceAll(RegExp(r'[\\/:*?"<>| ]'), '_');
+    final safeChapterTitle = chapter.chapterTitle.replaceAll(RegExp(r'[\\/:*?"<>| ]'), '_');
+    
+    final exportDir = await _getPublicExportDir(safeMangaTitle);
+    final file = File('${exportDir.path}/$safeChapterTitle.pdf');
 
     final pdfBytes = await pdf.save();
     await file.writeAsBytes(pdfBytes);
@@ -102,13 +127,6 @@ class PdfExportService {
     stopwatch.stop();
     final sizeMB = (pdfBytes.length / 1024 / 1024).toStringAsFixed(1);
     debugPrint('📄 PDF done in ${stopwatch.elapsedMilliseconds}ms — $sizeMB MB — ${images.length} pages');
-
-    // ─── مشاركة ───
-    final xFile = XFile(file.path, mimeType: 'application/pdf');
-    await SharePlus.instance.share(ShareParams(
-      files: [xFile],
-      text: '${chapter.mangaTitle} - ${chapter.chapterTitle}',
-    ));
 
     return file.path;
   }

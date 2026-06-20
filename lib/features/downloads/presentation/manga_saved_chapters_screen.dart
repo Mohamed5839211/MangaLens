@@ -145,7 +145,7 @@ class _MangaSavedChaptersScreenState extends ConsumerState<MangaSavedChaptersScr
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(
             content: Text(
-              'تم حفظ الـ PDF بنجاح ✓\nاستخدم نافذة المشاركة لحفظه في التنزيلات',
+              'تم حفظ الـ PDF بنجاح ✓\nتجد الملف في مجلد MangaLens في التخزين الأساسي للجهاز',
               style: GoogleFonts.cairo(fontWeight: FontWeight.w600, fontSize: 12),
             ),
             backgroundColor: AppColors.success,
