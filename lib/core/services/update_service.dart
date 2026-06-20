@@ -38,6 +38,7 @@ class UpdateService {
           },
           sendTimeout: const Duration(seconds: 5),
           receiveTimeout: const Duration(seconds: 5),
+          validateStatus: (status) => status != null && status < 500,
         ),
       );
 
@@ -71,7 +72,7 @@ class UpdateService {
         }
       }
     } catch (e) {
-      debugPrint('⚠️ [UpdateCheck] Failed to check for updates: $e');
+      // Ignore errors silently instead of alarming the user with a scary stack trace
     }
     return null;
   }

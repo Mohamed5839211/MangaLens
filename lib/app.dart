@@ -17,6 +17,9 @@ import 'features/rendering/presentation/translated_overlay.dart';
 class MangaLensApp extends ConsumerWidget {
   const MangaLensApp({super.key});
 
+  /// مفتاح عالمي للوصول إلى Navigator من أي مكان (مثل CloudflareBypassService)
+  static final GlobalKey<NavigatorState> navigatorKey = GlobalKey<NavigatorState>();
+
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final settingsState = ref.watch(settingsProvider);
@@ -35,6 +38,7 @@ class MangaLensApp extends ConsumerWidget {
       title: 'MangaLens',
       debugShowCheckedModeBanner: false,
       theme: AppTheme.darkTheme,
+      navigatorKey: MangaLensApp.navigatorKey,
       
       // ─── إعدادات اللغة ─────────────────────────────
       locale: Locale(settingsState.language),

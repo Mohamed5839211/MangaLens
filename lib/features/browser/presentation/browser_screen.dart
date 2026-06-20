@@ -1778,8 +1778,15 @@ class _BrowserScreenState extends ConsumerState<BrowserScreen> {
                               ),
                             ),
                             onTap: () {
-                              // الانتقال للبحث في جوجل أولاً
-                              browserNotifier.navigateTo(suggestion);
+                              // الانتقال للبحث في جوجل بعد تحويل الكلمة إلى رابط
+                              final input = suggestion.trim();
+                              final lowerInput = input.toLowerCase();
+                              if (lowerInput.startsWith('http://') || lowerInput.startsWith('https://')) {
+                                browserNotifier.navigateTo(input);
+                              } else {
+                                final searchQuery = Uri.encodeComponent(input);
+                                browserNotifier.navigateTo('https://www.google.com/search?q=$searchQuery');
+                              }
   
                               // إخفاء الكيبورد ووضع البحث
                               FocusScope.of(context).unfocus();

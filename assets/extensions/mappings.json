@@ -1,0 +1,2822 @@
+{
+  "https://allporncomics.co": {
+    "name": "AllPornComicsCo",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://comicsvalley.com": {
+    "name": "ComicsValley",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://grabber.zone": {
+    "name": "GrabberZone",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://kodokustudio.com": {
+    "name": "KodokuStudio",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://mangacrazy.net": {
+    "name": "MangaCrazy",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://mangaforfree.net": {
+    "name": "MangaForFreeFactory",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://manhuarmtl.com": {
+    "name": "Factory",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://manhwa18.cc": {
+    "name": "Manhwa18CcFactory",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://manhwa18uncensored.com": {
+    "name": "Manhwa18UncensoredFactory",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://manhwaclub.net": {
+    "name": "ManhwaClubNetFactory",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://manhwa-raw.com": {
+    "name": "ManhwaDashRaw",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://leemiau.com": {
+    "name": "MiauScanFactory",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://en-thunderscans.com": {
+    "name": "ThunderScansFactory",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://uncensoredmanhwa.us": {
+    "name": "UncensoredManhwaFactory",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://anyonemanga.com": {
+    "name": "AnyoneManga",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://arabtoons.net": {
+    "name": "ArabToons",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://arbxcomix.com": {
+    "name": "ArbxComix",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://ar.kenmanga.com": {
+    "name": "AreaManga",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://ar.areascans.org": {
+    "name": "AreaScans",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://despair-manga.net": {
+    "name": "DespairManga",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://manga.detectiveconanar.com": {
+    "name": "DetectiveConanAr",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://webtoonempire-bl.com": {
+    "name": "EmpireWebtoon",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://goldenmanga.net": {
+    "name": "GoldenManga",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://goonscans.org": {
+    "name": "GoonScans",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://hijala.com": {
+    "name": "Hijala",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://3asq.org": {
+    "name": "Manga3asq",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://lekmanga.net": {
+    "name": "Mangalek",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://link-manga.net": {
+    "name": "Mangalink",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://manga-lionz.org": {
+    "name": "MangaLionz",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://manga-spark.net": {
+    "name": "MangaSpark",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://manga-starz.net": {
+    "name": "MangaStarz",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://mangatuk.com": {
+    "name": "MangaTuk",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://mangaxcore.xyz": {
+    "name": "MangaxCore",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://manhatic.com": {
+    "name": "Manhatic",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://paradise-bl.com": {
+    "name": "ParadiseBL",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://rocksmanga.com": {
+    "name": "RocksManga",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://stellarsaber.pro": {
+    "name": "StellarSaber",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://yonaber.com": {
+    "name": "YonaBar",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://evil-manga.eu": {
+    "name": "Evilproduction",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://allporncomic.com": {
+    "name": "AllPornComic",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://allporncomic.io": {
+    "name": "AllPornComicIo",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://anisascans.in": {
+    "name": "AnisaScans",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://apcomics.org": {
+    "name": "Apcomics",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://aquareader.org": {
+    "name": "AquaManga",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://arenascan.com": {
+    "name": "ArenaScans",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://www.silentquill.net": {
+    "name": "Armageddon",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://arvencomics.com": {
+    "name": "ArvenComics",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://brainrotcomics.com": {
+    "name": "AryaScans",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://athreascans.com": {
+    "name": "AthreaScans",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://www.deatte5.com": {
+    "name": "BattleInFiveSecondsAfterMeeting",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://boratscans.com": {
+    "name": "BoratScans",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://bunmanga.com": {
+    "name": "BunManga",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://cocomic.co": {
+    "name": "Cocomic",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://coffeemanga.ink": {
+    "name": "CoffeeManga",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://comicasura.net": {
+    "name": "ComicAsura",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://comicsland.org": {
+    "name": "ComicsLand",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://crowscans.xyz": {
+    "name": "CrowScans",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://cucumbermanga.com": {
+    "name": "CucumberManga",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://culturedworks.com": {
+    "name": "CulturedWorks",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://reader.decadencescans.com": {
+    "name": "DecadenceScans",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://dragontea.ink": {
+    "name": "DragonTea",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://drakecomic.org": {
+    "name": "DrakeScans",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://elftoon.com": {
+    "name": "ElfToon",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://epicmanga.co": {
+    "name": "EpicManga",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://ero18x.com": {
+    "name": "Ero18x",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://scythescans.com": {
+    "name": "ErosScans",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://evascans.org": {
+    "name": "EvaScans",
+    "theme": "MangaThemesia",
+    "popularPath": "/series/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://fablescans.com": {
+    "name": "FableScans",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://firescans.xyz": {
+    "name": "Firescans",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://www.frieren.online": {
+    "name": "FrierenOnline",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://gakamangas.com": {
+    "name": "GakaMangas",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://gdscans.com": {
+    "name": "GalaxyDegenScans",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://galaxymanga.io": {
+    "name": "GalaxyManga",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://gedecomix.com": {
+    "name": "GEDEComix",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://gingertoon.com": {
+    "name": "GingeRTooN",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://gourmetsupremacy.com": {
+    "name": "GourmetScans",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://hadesscans.com": {
+    "name": "HadesScans",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://harimanga.me": {
+    "name": "Harimanga",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://hentai4free.net": {
+    "name": "Hentai4Free",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://dexhentai.com": {
+    "name": "HentaiDex",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://hentairead.com": {
+    "name": "Hentairead",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://hentaisco.cc": {
+    "name": "HentaiSco",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://hentaixcomic.com": {
+    "name": "HentaiXComic",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://hentaixdickgirl.com": {
+    "name": "HentaiXDickgirl",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://hentaixyuri.com": {
+    "name": "HentaiXYuri",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://hiperdex.com": {
+    "name": "Hiperdex",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://doujindistrict.com": {
+    "name": "HM2D",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://isekaiscan.top": {
+    "name": "IsekaiScanTop",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://jinmangas.com": {
+    "name": "Jinmangas",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://kingofshojo.com": {
+    "name": "KingofShojo",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://kissmanga.in": {
+    "name": "KissmangaIn",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://ksgroupscans.com": {
+    "name": "KSGroupScans",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://kunmanga.com": {
+    "name": "KunManga",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://www.kunmanga.online": {
+    "name": "KunMangaOnline",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://lagoonscans.com": {
+    "name": "LagoonScans",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://lhtranslation.net": {
+    "name": "LHTranslation",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://mangayy.org": {
+    "name": "MangaYY",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://lilymanga.net": {
+    "name": "LilyManga",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://linkmanga.com": {
+    "name": "LinkManga",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://madaradex.org": {
+    "name": "MadaraDex",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://madarascans.com": {
+    "name": "MadaraScans",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://mahouirexnohentaikarte.com": {
+    "name": "Mahouirexnohentaikarte",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://manga18free.com": {
+    "name": "Manga18Free",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://manga18fx.com": {
+    "name": "Manga18fx",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://manga18x.net": {
+    "name": "Manga18x",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://mangablaze.com": {
+    "name": "MangaBlaze",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://mangaclash.com": {
+    "name": "MangaClash",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://mangadia.com": {
+    "name": "MangaDia",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://mangadistrict.com": {
+    "name": "MangaDistrict",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://mangaforfree.com": {
+    "name": "Mangaforfreecom",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://mangafree.info": {
+    "name": "Mangafree",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://mangagg.com": {
+    "name": "MangaGG",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://www.mangago.fun": {
+    "name": "MangaGoFun",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://mangahe.com": {
+    "name": "MangaHe",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://mangahentai.me": {
+    "name": "MangaHentai",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://mangaka.cc": {
+    "name": "MangaKa",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://mangakiss.org": {
+    "name": "MangaKiss",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://mangamaniacs.org": {
+    "name": "MangaManiacs",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://mangaowl.io": {
+    "name": "MangaOwlIo",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://mangaread.co": {
+    "name": "MangaRead",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://www.mangaread.org": {
+    "name": "MangaReadOrg",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://mangasushi.org": {
+    "name": "Mangasushi",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://mangatrend.org": {
+    "name": "MangaTrend",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://mangatx.cc": {
+    "name": "MangaTX",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://manhuafast.com": {
+    "name": "ManhuaFast",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://manhuafast.net": {
+    "name": "ManhuaFastNet",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://manhuahot.com": {
+    "name": "ManhuaHot",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://manhuanext.com": {
+    "name": "Manhuanext",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://manhuaplus.com": {
+    "name": "ManhuaPlus",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://manhuascan.us": {
+    "name": "ManhuascanUs",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://manhuatop.org": {
+    "name": "ManhuaTop",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://manhuaus.com": {
+    "name": "ManhuaUS",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://www.manhuazonghe.com": {
+    "name": "ManhuaZonghe",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://manhwa18.org": {
+    "name": "Manhwa18Org",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://manhwa68.com": {
+    "name": "Manhwa68",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://manhwaclan.com": {
+    "name": "ManhwaClan",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://manhwacomics.com": {
+    "name": "ManhwaComics",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://www.manhwaden.com": {
+    "name": "ManhwaDen",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://manhwaget.com": {
+    "name": "ManhwaGet",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://manhwajoy.com": {
+    "name": "Manhwajoy",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://www.manhwalover.org": {
+    "name": "Manhwalover",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://manhwamanhua.com": {
+    "name": "ManhwaManhua",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://manhwanex.com": {
+    "name": "ManhwaNex",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://manhwareads.com": {
+    "name": "ManhwaReads",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://www.manhwatoon.me": {
+    "name": "ManhwaToon",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://manhwatop.com": {
+    "name": "Manhwatop",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://manhwax.top": {
+    "name": "Manhwax",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://milftoon.xxx": {
+    "name": "Milftoon",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://nexcomic.com": {
+    "name": "NexComic",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://nikatoons.com": {
+    "name": "NikaToons",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://24hnovel.com": {
+    "name": "Novel24h",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://novelcrow.com": {
+    "name": "NovelCrow",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://noxenscan.com": {
+    "name": "NoxenScans",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://octopusmanga.com": {
+    "name": "OctopusManga",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://www.orchisasia.org": {
+    "name": "Orchisasia",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://www.paritehaber.com": {
+    "name": "Paritehaber",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://pawmanga.com": {
+    "name": "PawManga",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://www.petrotechsociety.org": {
+    "name": "Petrotechsociety",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://flamescans.lol": {
+    "name": "FlameScanslol",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://rackusreads.com": {
+    "name": "Rackus",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://ragescans.com": {
+    "name": "RageScans",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://ravenscans.org": {
+    "name": "RavenScans",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://razure.org": {
+    "name": "Razure",
+    "theme": "MangaThemesia",
+    "popularPath": "/series/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://rdscans.com": {
+    "name": "RDScans",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://reset-scans.org": {
+    "name": "ResetScans",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://restscans.com": {
+    "name": "RestScans",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://rizzfables.com": {
+    "name": "RizzComic",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://rizzcomic.com": {
+    "name": "RizzComicUnoriginal",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://rokaricomics.com": {
+    "name": "RokariComics",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://rosesquadscans.aishiteru.org": {
+    "name": "RoseSquadScans",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://s2read.com": {
+    "name": "S2Manga",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://setsuscans.com": {
+    "name": "SetsuScans",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://shibamanga.com": {
+    "name": "ShibaManga",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://violetscans.org": {
+    "name": "VioletScans",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://skymanga.work": {
+    "name": "SkyManga",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga-list/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://sleepytranslations.com": {
+    "name": "SleepyTranslations",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://spmanhwa.online": {
+    "name": "Spmanhwa",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://tcbscanonepiecechapters.com": {
+    "name": "TCBScansUnoriginal",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://toon18.to": {
+    "name": "Toon18",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://www.toongod.org": {
+    "name": "ToonGod",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://toonily.com": {
+    "name": "Toonily",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://toonizy.com": {
+    "name": "Toonizy",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://mangatop.org": {
+    "name": "TopManhua",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://www.topmanhua.fan": {
+    "name": "TopManhuaFan",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://topmanhua.net": {
+    "name": "TopManhuaNet",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://tritinia.org": {
+    "name": "TritiniaScans",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://utoon.net": {
+    "name": "Utoon",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://vyvymanga.org": {
+    "name": "VyvyMangaOrg",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://kokomangas.com": {
+    "name": "Wearehunger",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://webdexscans.com": {
+    "name": "WebdexScans",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://webtoonscan.com": {
+    "name": "WebtoonScan",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://www.webtoon.xyz": {
+    "name": "WebtoonXYZ",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://whalemanga.com": {
+    "name": "WhaleManga",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://witchscans.com": {
+    "name": "WitchScans",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://woopread.com": {
+    "name": "WoopRead",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://wuxiaworld.site": {
+    "name": "WuxiaWorld",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://yakshacomics.com": {
+    "name": "YakshaComics",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://yaoihub.net": {
+    "name": "Yaoihub",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://yaoiscan.com": {
+    "name": "YaoiScan",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://zazamanga.com": {
+    "name": "Zazamanga",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://zinchangmanga.net": {
+    "name": "ZinChanMangaCom",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://mangazin.org": {
+    "name": "Zinmanga",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://zinmanga.net": {
+    "name": "ZinmangaNet",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://apollcomics.es": {
+    "name": "ApollComics",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://asialotuss.com": {
+    "name": "AsiaLotus",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://archiviumbar.com": {
+    "name": "BarManga",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://begatranslation.com": {
+    "name": "BegaTranslation",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://bibliopanda.com": {
+    "name": "BiblioPanda",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://bokugents.com": {
+    "name": "BokugenTranslation",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://bymichiby.com": {
+    "name": "BymichiScan",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://catharsisworld.dig-it.info": {
+    "name": "CatharsisWorld",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://celestialmoonscan.es": {
+    "name": "CelestialMoon",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://legionscans.com/wp": {
+    "name": "CerberusSeries",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://codex.readkisho.me": {
+    "name": "CodexZero",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://daprob.com": {
+    "name": "DapRob",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://doujinshell.net": {
+    "name": "DoujinsHell",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://dragontranslation.org": {
+    "name": "DragonTranslationOrg",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://imperiomanhua.com": {
+    "name": "EmperorScan",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://escaneodeleyendas.com": {
+    "name": "EscaneoDeLeyendas",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://es.mi2manga.com": {
+    "name": "EsMi2Manga",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://gremoryhistorias.org": {
+    "name": "GremoryMangas",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://lectorhades.latamtoon.com": {
+    "name": "HadesNoFansub",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://kiraproject.lat": {
+    "name": "HaremDeKira",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://houseofotakusv2.xyz": {
+    "name": "HouseOfOtakus",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://infrafandub.com": {
+    "name": "InfraFandub",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://scanimnortal.com": {
+    "name": "InmortalScan",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://inventariooculto.com": {
+    "name": "InventarioOculto",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://www.kazokuden.com": {
+    "name": "KazokuDen",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://lectorknight.com": {
+    "name": "KnightNoScanlation",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://lectormangass.com": {
+    "name": "LectorMangaLat",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://leermanga.net": {
+    "name": "LeerManga",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://lunapiecesfansub.com": {
+    "name": "LunaPieces",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://mangacrab.org": {
+    "name": "MangaCrab",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://mangaesp.topmanhuas.org": {
+    "name": "MangaEsp",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://mangalector.com": {
+    "name": "Mangalector",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://mangaromance19.com": {
+    "name": "MangaRomance",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://mangamukai.com": {
+    "name": "MangaMukai",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://mangasnosekai.com": {
+    "name": "MangasNoSekai",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://mangatv.net": {
+    "name": "MangaTV",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://samurai.j5z.xyz": {
+    "name": "SamuraiScan",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://manhwa-latino.com": {
+    "name": "ManhwaLatino",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://manhwa-online.com": {
+    "name": "ManhwaOnline",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://marmota.me": {
+    "name": "Marmota",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://mhscans.com": {
+    "name": "MHScans",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://monopolymanhua.com": {
+    "name": "MonopolyScan",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://mundomanhwa.com": {
+    "name": "MundoManhwa",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://nartag.com": {
+    "name": "Nartag",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://nekoproject.org": {
+    "name": "NekoScans",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://nobledicion.yoveo.xyz": {
+    "name": "NoblesseTranslations",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://novamanhwa.cc": {
+    "name": "NovaManhwa",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://ragnarokscanlation.org": {
+    "name": "RagnarokScanlation",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://raikiscan.com": {
+    "name": "RaikiScan",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://r1.richtoon.top": {
+    "name": "RichtoScan",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://skymangas.com": {
+    "name": "SkyMangas",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://stickhorse.cl": {
+    "name": "StickHorse",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://swordofoblivion.com": {
+    "name": "SwordOfOblivion",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://lectortaurus.com": {
+    "name": "TaurusFansub",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://aedexnox.akan01.com": {
+    "name": "TempleScanEsp",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://toon-es.com": {
+    "name": "Toones",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://topcomicporno.com": {
+    "name": "TopComicPorno",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://topcomicporno.net": {
+    "name": "TopComicPornoNet",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://uchuujinmangas.com": {
+    "name": "UchuujinProjects",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://vermanhwa.com": {
+    "name": "VerManhwas",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://yuri-online.com": {
+    "name": "YuriOnline",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://harmony-scan.fr": {
+    "name": "HarmonyScan",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://dassouscan.com": {
+    "name": "DassouScan",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://epsilonscan.to": {
+    "name": "EpsilonScan",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://hentai-origines.fr": {
+    "name": "HentaiOrigines",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://hentai.scantrad-vf.cc": {
+    "name": "HentaiScantrad",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://hentaizone.xyz": {
+    "name": "HentaiZone",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://hhentai.fr": {
+    "name": "HistoireDHentai",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://kiwiyascans.com": {
+    "name": "KiwiyaScans",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://www.lelmanga.com": {
+    "name": "Lelmanga",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://mangahub.fr": {
+    "name": "MangaHubFr",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://manga-scantrad.io": {
+    "name": "MangaScantrad",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://mangas-origines.fr": {
+    "name": "MangasOriginesFr",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://mangas-scans.com": {
+    "name": "MangasScans",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://pantheon-scan.com": {
+    "name": "PantheonScan",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://pornhwa.fr": {
+    "name": "PornhwaFR",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://x-manga.org": {
+    "name": "XManga",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://epsilonsoft.to": {
+    "name": "SoftEpsilonScan",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://sushiscan.net": {
+    "name": "SushiScan",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://sushiscan.fr": {
+    "name": "SushiScanFR",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://toonfr.com": {
+    "name": "ToonFr",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://yaoiscan.fr": {
+    "name": "YaoiScan",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://astralscans.top": {
+    "name": "AstralScans",
+    "theme": "MangaThemesia",
+    "popularPath": "ping/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://lc1.cosmicscans.to": {
+    "name": "CosmicScansID",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://dailysuka.com": {
+    "name": "DailySuka",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://dojing.net": {
+    "name": "DojingNet",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://doujinku.org": {
+    "name": "Doujinku",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://01.holotoon.site": {
+    "name": "Holotoon",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://01.hwago.xyz": {
+    "name": "Hwago",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://izanamiscans.my.id": {
+    "name": "IzanamiScans",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://kanzenin.info": {
+    "name": "Kanzenin",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://klikmanga.org": {
+    "name": "KlikManga",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://01.apkomik.com": {
+    "name": "Apkomik",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://komikdewasa.mom": {
+    "name": "KomikDewasa",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://komikdewasa.art": {
+    "name": "KomikDewasaArt",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://komikhwa.com": {
+    "name": "Komikhwa",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://komikindo.bid": {
+    "name": "Komikindo",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://komiksin.net": {
+    "name": "KomikindoCo",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://komikstation.org": {
+    "name": "KomikStation",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://komiktap.info": {
+    "name": "Komiktap",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://01.komiku.asia": {
+    "name": "KomikuCom",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://kumapoi.info": {
+    "name": "KumaPoi",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://kumopoi.org": {
+    "name": "KumoPoi",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://www.lianscans.com": {
+    "name": "LianScans",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://02.lumosgg.com": {
+    "name": "LumosKomik",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://v4.luvyaa.co": {
+    "name": "Luvyaa",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://mangacanblog.com": {
+    "name": "MangaCan",
+    "theme": "MangaThemesia",
+    "popularPath": "//?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://mangasusuku.com": {
+    "name": "Mangasusu",
+    "theme": "MangaThemesia",
+    "popularPath": "/komik/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://manhwadesu.store": {
+    "name": "ManhwaDesu",
+    "theme": "MangaThemesia",
+    "popularPath": "/komik/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://manhwahana.com": {
+    "name": "Manhwahana",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://www.manhwaindo.my": {
+    "name": "ManhwaIndo",
+    "theme": "MangaThemesia",
+    "popularPath": "/series/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://02.manhwaland.land": {
+    "name": "ManhwaLandMom",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://manhwalist02.asia": {
+    "name": "ManhwaList",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://isekaikomik.com": {
+    "name": "ManhwalistOrg",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://id.mgkomik.cc": {
+    "name": "MGKomik",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://mihentai.net": {
+    "name": "Mihentai",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://id.ngomik.cloud": {
+    "name": "Ngomik",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://noromax02.my.id": {
+    "name": "Noromax",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://omicaso.org": {
+    "name": "Omicaso",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://yurilabs.my.id": {
+    "name": "OtaScans",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://pornhwa18.com": {
+    "name": "Pornhwa18",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://sasangeyou.net": {
+    "name": "Sasangeyou",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://sektedoujin.cc": {
+    "name": "SekteDoujin",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://shirakami.xyz": {
+    "name": "Shirakami",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://siikomik.net": {
+    "name": "Siikomik",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://soulscans.my.id": {
+    "name": "SoulScans",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://v1.kaguya.pro": {
+    "name": "Kaguya",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://www.walpurgiscan.it": {
+    "name": "WalpurgisScan",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://rawbaka.com": {
+    "name": "RawBaka",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://rawdex.net": {
+    "name": "RawDEX",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://apenasmaisumyaoi.com": {
+    "name": "Amuy",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://arthurscan.xyz": {
+    "name": "ArthurScan",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://atemporal.cloud": {
+    "name": "Atemporal",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://leitor.borutoexplorer.com.br": {
+    "name": "BorutoExplorer",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://cafecomyaoi.com.br": {
+    "name": "CafeComYaoi",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://loverstoon.com": {
+    "name": "CeriseScan",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://covendasbruxonas.com": {
+    "name": "CovenScan",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://fairydream.com.br": {
+    "name": "DreamScan",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://euphoriascan.com": {
+    "name": "EuphoriaScan",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://fenixproject.site": {
+    "name": "FenixProject",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://fbsquadx.com": {
+    "name": "FleurBlanche",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://flowermangas.net": {
+    "name": "FlowerMangaDotNet",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://ghostscan.xyz": {
+    "name": "GhostScan",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://hiper.cool": {
+    "name": "Hipercool",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://hotcabaretscan.com": {
+    "name": "HotCabaretScan",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://readhunters.xyz": {
+    "name": "HuntersScans",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://inkapk.net": {
+    "name": "Inkapk",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://kakuseiproject.org": {
+    "name": "KakuseiProject",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://leitor.kamisama.com.br": {
+    "name": "KamiSamaExplorer",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://leitordemangas.com": {
+    "name": "LeitorDeMangas",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://lermangas.me": {
+    "name": "LerMangas",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://limboscan.com.br": {
+    "name": "LimboScan",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://tiraninha.world": {
+    "name": "LittleTyrant",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://mangalivre.to": {
+    "name": "MangaLivreTo",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://mangaonline.red": {
+    "name": "MangaOnline",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://mangasbrasuka.com.br": {
+    "name": "MangasBrasuka",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://mangastop.net": {
+    "name": "MangaStop",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://minitwoscan.com": {
+    "name": "MiniTwoScan",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://monsuresu.com": {
+    "name": "Monsure",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://montetaiscanlator.xyz": {
+    "name": "MonteTai",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://mrtenzus.com": {
+    "name": "MRTenzus",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://mugiwarasoficial.com": {
+    "name": "MugiwarasOficial",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://nebulosascan.com": {
+    "name": "NebulosaScan",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://ninjacomics.xyz": {
+    "name": "NinjaScan",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://nocfsb.com": {
+    "name": "NocturneSummer",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://hanamiheaven.org": {
+    "name": "HanamiHeaven",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://origami-orpheans.com": {
+    "name": "OrigamiOrpheans",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://psunicorn.com": {
+    "name": "PinkSeaUnicorn",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://pirulitorosa.site": {
+    "name": "PirulitoRosa",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://kitsuneyako.com": {
+    "name": "PointZeroToons",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://lerboyslove.com": {
+    "name": "PortalYaoi",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://starligthscan.com": {
+    "name": "StarlightScan",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://tankouhentai.com": {
+    "name": "TankouHentai",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://tatakaescan.com": {
+    "name": "TatakaeScan",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://tiamanhwa.com": {
+    "name": "TiaManhwa",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://tsundoku.com.br": {
+    "name": "TsundokuTraducoes",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://3xyaoi.com": {
+    "name": "XXXYaoi",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://yurionair.top": {
+    "name": "YuriOnAir",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://cat-300.com": {
+    "name": "Cat300",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://catzaa.net": {
+    "name": "Catzaa",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://www.doodmanga.com": {
+    "name": "Doodmanga",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://doujin-lc.net": {
+    "name": "DoujinLc",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://doujinza.com": {
+    "name": "DoujinZa",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://ecchi-doujin.com": {
+    "name": "EcchiDoujin",
+    "theme": "MangaThemesia",
+    "popularPath": "/doujin/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://god-doujin.com": {
+    "name": "GodDoujin",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://mangalami.com": {
+    "name": "LamiManga",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://makimaaaaa.com": {
+    "name": "Makimaaaaa",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://manga1688.com": {
+    "name": "Manga168",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://www.mangaisekaithai.net": {
+    "name": "MangaIsekaiThai",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://www.mangakimi.com": {
+    "name": "MangaKimi",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://manga-lc.net": {
+    "name": "MangaLc",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://mangastep.com": {
+    "name": "Mangastep",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://www.manhuabug.com": {
+    "name": "ManhuaBug",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://www.manhuakey.com": {
+    "name": "ManhuaKey",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://www.manhuathai.com": {
+    "name": "ManhuaThai",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://www.manhwabreakup.com": {
+    "name": "ManhwaBreakup",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://moon-toon.com": {
+    "name": "Moodtoon",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://www.ntr-manga.net": {
+    "name": "NTRManga",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://one-manga.com": {
+    "name": "OneManga",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://popsmanga.net": {
+    "name": "PopsManga",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://reapertrans.com": {
+    "name": "ReaperTrans",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://www.xn--l3c0azab5a2gta.com": {
+    "name": "Sodsaime",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://speed-manga.net": {
+    "name": "SpeedManga",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://www.tanuki-manga.net": {
+    "name": "TanukiManga",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://toomtam-manga.com": {
+    "name": "ToomTamManga",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://manga.adonisfansub.com": {
+    "name": "AdonisFansub",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://anikiga.com": {
+    "name": "Anikiga",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://araznovel.com": {
+    "name": "ArazNovel",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://arcurafansub.com": {
+    "name": "ArcuraFansub",
+    "theme": "MangaThemesia",
+    "popularPath": "/seri/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://asurascans.com.tr": {
+    "name": "AsuraScansTR",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://caprazmanga.com": {
+    "name": "CaprazManga",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://diamondfansub.com": {
+    "name": "DiamondFansub",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://dom4lfansub.online": {
+    "name": "DomalFansub",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://gafeland.com": {
+    "name": "Gafeland",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://gaiatoon.com": {
+    "name": "Gaiatoon",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://garciamanga.com": {
+    "name": "GarciaManga",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://ghostoon.com": {
+    "name": "GhosToon",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://golgebahcesi.com": {
+    "name": "GolgeBahcesi",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://hayalistic.blog": {
+    "name": "Hayalistic",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://kabusmanga.com": {
+    "name": "KabusManga",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://www.nabicix.com": {
+    "name": "KoreliScans",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://www.kuroimanga.mom": {
+    "name": "KuroiManga",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://laviniafansub.pro": {
+    "name": "LaviniaFansub",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://lilyumfansub.com.tr": {
+    "name": "LilyumFansub",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://tuhafscans.com": {
+    "name": "LunaScans",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://mangadusleri.lol": {
+    "name": "Mangadusleri",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://mangagezgini.online": {
+    "name": "MangaGezgini",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://mangakusu.com": {
+    "name": "MangaKusu",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://manga-sehri.com": {
+    "name": "MangaSehri",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://manga-sehri.net": {
+    "name": "MangaSehriNet",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://www.tilkiscans.com": {
+    "name": "MangaTilkisi",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://mangawow.org": {
+    "name": "MangaWOW",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://mangawt.com": {
+    "name": "MangaWT",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://mangazure.net": {
+    "name": "MangaZure",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://www.millascan.com": {
+    "name": "MilaSub",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://moondaisyscans.site": {
+    "name": "MoonDaisyScans",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://nirvanamanga.com": {
+    "name": "NirvanaManga",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://niverafansub.lol": {
+    "name": "NiveraFansub",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://opiatoon.lat": {
+    "name": "Opiatoon",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://www.patimanga.com": {
+    "name": "PatiManga",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://www.raindropteamfan.com": {
+    "name": "RaindropFansub",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://www.ruyamanga2.com": {
+    "name": "RuyaManga",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://ruyamanga.net": {
+    "name": "RuyaMangaNet",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://sereinscan.com": {
+    "name": "SereinScan",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://shijiescans.com": {
+    "name": "ShijieScans",
+    "theme": "MangaThemesia",
+    "popularPath": "/seri/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://strayfansub.net": {
+    "name": "StrayFansub",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://summertoons.net": {
+    "name": "SummerToon",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://sunsetmanga.com": {
+    "name": "SunsetManga",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://www.tarotscans.com": {
+    "name": "TarotScans",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://tempestmangas.com": {
+    "name": "TempestScans",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://tonizu.top": {
+    "name": "TonizuToon",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://tortugaceviri.com": {
+    "name": "TortugaCeviri",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://trmangaoku.com": {
+    "name": "TurkceMangaOku",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://turkcemangaoku.com.tr": {
+    "name": "TurkceMangaOkuTr",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://turkmangaoku.com": {
+    "name": "Turkmangaoku",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://webtoonhatti.club": {
+    "name": "WebtoonHatti",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://webtoontr.net": {
+    "name": "WebtoonTR",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://yaoibar.lol": {
+    "name": "Yaoibar",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://yaoiflix.fit": {
+    "name": "YaoiFlix",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://yaoimangaoku.net": {
+    "name": "YaoiMangaOku",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://zenithscans.com": {
+    "name": "ZenithScans",
+    "theme": "MangaThemesia",
+    "popularPath": "/manga/?page={page}&order=popular",
+    "scriptFile": "universal_mangathemesia.js"
+  },
+  "https://2tencb.pro": {
+    "name": "HentaiCB",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://hentaivn.show": {
+    "name": "HentaiVNPlus",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://truyentranhdammyy.site": {
+    "name": "TruyenTranhDamMy",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://truyentuoitho.com": {
+    "name": "TruyenTuoiTho",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://truyenvn.sbs": {
+    "name": "TruyenVN",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  },
+  "https://bakamh.com": {
+    "name": "Bakamh",
+    "theme": "Madara",
+    "popularPath": "/manga/page/{page}/?m_orderby=views",
+    "scriptFile": "universal_madara.js"
+  }
+}
