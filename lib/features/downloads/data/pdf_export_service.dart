@@ -3,6 +3,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:pdf/widgets.dart' as pw;
+import 'package:pdf/pdf.dart';
 import 'package:share_plus/share_plus.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:flutter_image_compress/flutter_image_compress.dart';
@@ -97,7 +98,7 @@ class PdfExportService {
 
       pdf.addPage(
         pw.Page(
-          pageFormat: pw.PdfPageFormat(
+          pageFormat: PdfPageFormat(
             (image.width ?? 800).toDouble(),
             (image.height ?? 1200).toDouble(),
           ),
