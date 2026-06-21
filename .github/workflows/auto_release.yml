@@ -38,7 +38,7 @@ jobs:
       - name: Setup Keystore
         run: |
           mkdir -p ~/.android
-          cat keystore_base64.txt | base64 --decode --ignore-garbage > ~/.android/debug.keystore
+          cp android/app/debug.keystore ~/.android/debug.keystore
 
       - name: Get dependencies
         run: flutter pub get
